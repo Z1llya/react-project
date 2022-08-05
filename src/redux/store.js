@@ -1,6 +1,7 @@
 import {combineReducers, configureStore} from "@reduxjs/toolkit";
+
 import {movieReducer} from "./slices";
-import {genreReducer} from "./slices/genreSlice";
+import {genreReducer} from "./slices";
 
 
 

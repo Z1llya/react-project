@@ -1,6 +1,8 @@
 import MoviesList from "../components/MoviesList";
-import {Outlet, useParams} from "react-router-dom";
 import css from '../components/css.css'
+
+import {Outlet} from "react-router-dom";
+
 
 export default function MoviesPage(){
 

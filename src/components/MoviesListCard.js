@@ -1,8 +1,9 @@
-
+import css from "./css.css"
 import {postURL} from "../constans";
 import StarsRating from "./StarsRating";
-import {Link, useNavigate, useParams} from "react-router-dom";
-import css from "./css.css"
+
+import {Link} from "react-router-dom";
+
 
 export default function MoviesListCard({movie}){
 

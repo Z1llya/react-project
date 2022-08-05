@@ -1,8 +1,9 @@
 import {useDispatch, useSelector} from "react-redux";
-import MoviesListCard from "./MoviesListCard";
 import {useEffect} from "react";
-import {movieActions} from "../redux/slices";
 import {useSearchParams} from "react-router-dom";
+
+import MoviesListCard from "./MoviesListCard";
+import {movieActions} from "../redux";
 import css from "./css.css"
 
 export default function MoviesList(){

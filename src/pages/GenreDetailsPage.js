@@ -1,9 +1,9 @@
 import {useDispatch, useSelector} from "react-redux";
-import {useLocation, useSearchParams} from "react-router-dom";
+import {useLocation} from "react-router-dom";
 import {useEffect} from "react";
-import {genreActions} from "../redux/slices/genreSlice";
-import GenreMovie from "../components/GenreMovie";
 
+import {genreActions} from "../redux";
+import GenreMovie from "../components/GenreMovie";
 import css from '../components/css.css'
 
 export default function GenreDetailsPage(){

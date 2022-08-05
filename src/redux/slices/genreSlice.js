@@ -1,6 +1,7 @@
 import {createAsyncThunk, createSlice} from "@reduxjs/toolkit";
-import {genreServices} from "../../services/genre-services";
-import {movieServices} from "../../services/movie-services";
+
+import {genreServices} from "../../services";
+
 const initialState = {
     genre:[],
     errors:null,

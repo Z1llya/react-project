@@ -1,4 +1,5 @@
-import {Link, useSearchParams} from "react-router-dom";
+import {Link} from "react-router-dom";
+
 import {postURL} from "../constans";
 import StarsRating from "./StarsRating";
 import css from './css.css'

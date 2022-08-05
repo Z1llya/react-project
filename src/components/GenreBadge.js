@@ -1,8 +1,8 @@
 import {useDispatch, useSelector} from "react-redux";
 import {useEffect} from "react";
-import {genreActions} from "../redux/slices/genreSlice";
+
+import {genreActions} from "../redux";
 import Genre from "./Genre";
-import {useSearchParams} from "react-router-dom";
 
 export default function GenreBadge(){
     const {genre} = useSelector(state => state.genre);
@@ -10,9 +10,6 @@ export default function GenreBadge(){
     const {genres} = genre;
 
     const dispatch = useDispatch();
-
-
-
 
 
 

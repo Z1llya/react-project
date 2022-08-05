@@ -1,4 +1,3 @@
-import {useLocation} from "react-router-dom";
 import {postURL} from "../constans";
 import StarsRating from "./StarsRating";
 

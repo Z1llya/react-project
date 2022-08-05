@@ -1,10 +1,9 @@
 import {Route,Routes} from "react-router-dom";
+
 import MainPage from "./layouts/MainPage";
 import MoviesPage from "./pages/MoviesPage";
 import GenrePage from "./pages/GenrePage";
-import MovieInfo from "./components/MovieInfo";
 import MovieInfoPage from "./pages/MovieInfoPage";
-import MoviesListCard from "./components/MoviesListCard";
 import GenreDetailsPage from "./pages/GenreDetailsPage";
 
 
